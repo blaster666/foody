@@ -1,0 +1,44 @@
+nav {
+  background-color: white;
+  // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+.container {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  .test-bt {
+    cursor: pointer;
+    width: 118px;
+    padding: 1px 0px;
+    font-size: 16px;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+    color: #3f3744;
+  }
+
+  .logo {
+    padding: 0;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-size: 2em;
+    color: #29ab87;
+  }
+  div.con-list {
+    margin-left: auto;
+  }
+  .item {
+    font-size: 1.3em;
+    margin-left: auto;
+    padding: 0.5em;
+  }
+}

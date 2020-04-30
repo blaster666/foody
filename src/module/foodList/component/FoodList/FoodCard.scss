@@ -1,0 +1,28 @@
+.text {
+  color: black;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+
+  .item {
+    margin-left: auto;
+  }
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.card-a {
+  width: 300;
+  margin: "auto";
+}

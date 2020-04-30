@@ -1,0 +1,56 @@
+.addfood-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+  .addfood-item {
+    // position: absolute;
+    width: 70%;
+    // background-image: linear-gradient(135deg, #fff6b7 10%, #f6416c 100%);
+    // background-color: #5cdb95;
+    border-radius: 2px;
+  }
+
+  .card {
+    background: white;
+    // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    // transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 1px solid #d6d6d6;
+    box-shadow: 1px 1px 0px #c2c2c2;
+    border-radius: 3px;
+  }
+
+  // .card:hover {
+  //   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  // }
+}
+
+.text-title {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.input-line {
+  display: flex;
+  justify-content: center;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.pl {
+  padding-left: 0.5rem;
+}
+
+.validate-red {
+  color: red;
+}

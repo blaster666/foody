@@ -1,0 +1,60 @@
+.con {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 65%;
+  justify-content: center;
+  .card {
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #d6d6d6;
+    box-shadow: 1px 1px 0px #c2c2c2;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    .one-image {
+      border-top-left-radius: 2px;
+      border-bottom-left-radius: 2px;
+      background-image: url("https://images-gmi-pmc.edge-generalmills.com/338f16c8-9f80-4a44-ab22-6a3e9a2efdb2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 300px;
+    }
+    .des-con {
+      display: grid;
+    }
+    .onefood-title {
+      margin-top: auto;
+      text-align: center;
+    }
+    .des {
+      display: flex;
+      margin: 20px auto;
+      width: 80%;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+    .btn {
+      border: 2px solid black;
+      background-color: white;
+      color: black;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    .blue {
+      border-color: #2196f3;
+      color: dodgerblue;
+      transition: 0.3s;
+    }
+    .blue:hover {
+      background: #2196f3;
+      color: white;
+    }
+    input[type="text"] {
+      padding: 3px 10px;
+      font-size: 16px;
+    }
+  }
+}
